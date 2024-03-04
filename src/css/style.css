@@ -1,0 +1,207 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+
+/** Gerais **/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bar {
+    height: 20px;
+    width: 170px;
+    background-color: #117050;
+    margin-bottom: 12px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 96px;
+    font-weight: bold;
+    line-height: 106px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 43px;
+    margin-bottom: 25px;
+}
+
+.button {
+    display: inline-block;
+    border: 3px solid #454545;
+    padding: 12px 30px;
+    border-radius: 4px;
+    color: #454545;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #454545;
+    color: #EEEEEE;
+}
+
+
+/** Header **/
+
+header .line {
+    background-color: #117050;
+    height: 12px;
+}
+
+.container {
+    max-width: 1600px;
+    margin: auto;
+}
+
+.header-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+}
+
+.header-left img {
+    width: 72px;
+    height: 72px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.search form {
+    display: flex;
+}
+
+.search input {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 1px solid #b9b7b7;
+    outline: 0;
+    width: 100%;
+    max-width: 240px;
+}
+
+.search button {
+    border: 0;
+    background: transparent;
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 18px;
+    height: 18px;
+}
+
+.menu img {
+    width: 26px;
+    height: 26px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+
+/** Banner **/
+
+.banner {
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.banner span {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.banner-images img {
+    width: 160px;
+    height: 160px;
+    border: 6px solid #117050;
+    border-radius: 50%;
+    margin: 70px 30px 0px 0px;
+}
+
+
+/** Area 1 **/
+
+.area1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.area1-content {
+    padding: 80px;
+}
+
+.area1-quote {
+    margin-bottom: 35px;
+    font-size: 18px;
+}
+
+.area1-text {
+    margin-bottom: 50px;
+    line-height: 26px;
+    font-size: 18px;
+}
+
+.area1-img1 {
+    background-image: url(../images/f2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.area1-img2 {
+    background-image: url(../images/f1.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+}
+
+
+/** Area 2 **/
+
+.area2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.area2-content {
+    padding: 80px;
+}
+
+.area2-text {
+    margin-bottom: 50px;
+    line-height: 26px;
+    font-size: 18px;
+}
+
+.area2-img1 {
+    background-image: url(../images/f3.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+
+.area2-img2 {
+    background-image: url(../images/f4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
